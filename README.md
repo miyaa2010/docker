@@ -25,7 +25,7 @@ WARNING: Adding a user to the "docker" group will grant the ability to run
          docker host.
          Refer to https://docs.docker.com/engine/security/security/#docker-daemon-attack-surface
 ```
-	- Thực hiện lệnh dưới để phân quyền cho user hiện tại thuộc group docker
+- Thực hiện lệnh dưới để phân quyền cho user hiện tại thuộc group docker
 ```
  sudo usermod -aG docker `whoami`
 ```
