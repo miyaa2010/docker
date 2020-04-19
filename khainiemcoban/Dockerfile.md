@@ -13,6 +13,7 @@
 * ENTRYPOINT — cung cấp lệnh và đối số cho một container thực thi.
 * EXPOSE — khai báo port lắng nghe của image.
 * VOLUME — tạo một điểm gắn thư mục để truy cập và lưu trữ data.
+
 VD tạo 1 dockerfile :
 
 ```
