@@ -7,7 +7,7 @@ $ docker ps: xem các container đang có trên local
 $ docker run -itd -p :khởi tạo và chạy 1 container
 VD: docker run -itd -p 8080:80 centos:7 /bin/bash
 $ docker start: khởi chạy 1 container
-$ docker exec -it [Container ID] /bin/bash
+$ docker exec -it [Container ID] /bin/bash : v
 
 Ví dụ, 1 container có thể chứa môi trường:
 
