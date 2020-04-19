@@ -1,6 +1,14 @@
 KHái niệm và ghi chép cơ bản về lệnh $ docker-contener
 
 Docker container là máy ảo chứa môi trường phần mềm.
+* 1 số lệnh trong docker-container:
+$ docker search : tìm kiếm image từ dockerhub
+$ docker pull : để tải image từ dockerhub về máy local
+$ docker ps: xem các container đang có trên local
+$ docker run -itd -p :khởi tạo và chạy 1 container
+VD: docker run -itd -p 8080:80 centos:7 /bin/bash
+$ docker start: khởi chạy 1 container
+
 Ví dụ, 1 container có thể chứa môi trường:
 
   OS: Ubuntu 16.04
