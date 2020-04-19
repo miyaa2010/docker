@@ -47,6 +47,7 @@ EXPOSE 80
 ```
 
 $ docker build -t httpd_sample . : để build 1 image tên là httpd_sample
+
 $ docker run -itd -p 80:80 httpd_sample
 
 ```
