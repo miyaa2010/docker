@@ -1,6 +1,9 @@
 # docker
 sau đây quá trình tìm hiểu docker của Nguyễn Hoàng Giang
 
+## khái niệm về docker 
+https://github.com/hocchudong/ghichep-docker/blob/master/docs/docker-coban/ghichep-docker.md
+
 ## Cài đặt cơ bản
  ``` 
  apt-get update
