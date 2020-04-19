@@ -7,7 +7,7 @@
   - Khai báo các services cần thiết để chạy app trong docker-compose.yml.
   - Run docker-compose up và Compose sẽ start và run app.
 
-# 1. Cài đặt
+## Cài đặt
 - Install using pip
 ```sh
 $ pip install docker-compose
