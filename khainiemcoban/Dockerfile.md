@@ -44,11 +44,17 @@ CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 #Cung cap cong kết noi ra ngoai
 EXPOSE 80
+EOF
+
+docker build -t giangnh .
+
 ```
 
-$ docker build -t httpd_sample . : để build 1 image tên là httpd_sample
+$ docker build -t giangnh . : để build 1 image tên là httpd_sample
 
 $ docker run -itd -p 80:80 httpd_sample
+
+$ docker exec -it [container ID] /b
 
 ```
 END
