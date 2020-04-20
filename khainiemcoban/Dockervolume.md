@@ -22,10 +22,7 @@
 
     - Không có vấn đề nào xảy ra khi ta lựa chọn cách chia sẻ dữ liệu để sử dụng, vì các dữ liệu đều giống nhau trong container. Chúng được quy định giống như một thư mục hoặc một file trong filesystem của containers. Sự khác biệt giữa `volumes`, `bind mounts` và `tmpfs mounts` chỉ đơn giản là khác nhau về vị trí lưu trữ dữ liệu trên Docker host.
 
-        > ![types-of-mounts.png](../../images/types-of-mounts.png)
-
-    - Hình ảnh trên mô tả vị trí lưu trữ dữ liệu của container trên Docker host. Theo đó, ta có thể thấy được:
-
+   
         + `volumes` được lưu trữ như một phần của filesystem trên Docker host và được quản lý bởi Docker (xuất hiện trong /var/lib/docker/volumes trên Linux).  Đây được xem là cách tốt nhất để duy trì dữ liệu trong Docker
 
         + `bind mounts` cho phép lưu trữ bất cứ đâu trong host system. 
