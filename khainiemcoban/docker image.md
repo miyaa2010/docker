@@ -18,6 +18,11 @@ Tìm kiếm các image liên quan đến centos, nếu cần tìm image nào th�
 docker image ls
 ```
 List ra các image đang có trên máy local
+
+```
+docker pull centos
+```
+t
 ```
 sudo docker rmi [Image ID]
 ```
