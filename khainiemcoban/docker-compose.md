@@ -20,3 +20,18 @@ Hoặc bạn có thể sử dụng cách khác:
 $ curl -L https://github.com/docker/compose/releases/download/1.11.2/run.sh > /usr/local/bin/docker-compose
 $ chmod +x /usr/local/bin/docker-compose
 ```
+## viết đúng cú pháp theo version
+https://docs.docker.com/compose/compose-file/
+
+## Ví dụ cơ bản về docker-compose
+
+```
+version: '3'
+services:                                                                               web:                                                                                          
+    build: .
+	command: ["/usr/sbin/httpd","-D","FOREGROUND"]
+  volumes:
+    - ./code:/var/www/html
+    ports:                                                                                      
+      - "80:80"
+```
