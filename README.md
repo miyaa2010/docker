@@ -1,4 +1,4 @@
-# ocker
+# Docker
 sau đây quá trình tìm hiểu docker của Nguyễn Hoàng Giang
 
 ## khái niệm về docker 
